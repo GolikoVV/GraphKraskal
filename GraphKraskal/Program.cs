@@ -9,7 +9,7 @@ public class Program
 {
     public static void Main()
     {
-        int vertices = 6;
+        int vertices = 6; //6 вершин
         Graph graph = new Graph(vertices);
         AdjacencyMatrix adjacencyMatrix = new AdjacencyMatrix(vertices);
 
