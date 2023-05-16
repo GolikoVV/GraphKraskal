@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GraphKraskal
 {
-    internal class AdjacencyMatrix
+    internal class AdjacencyMatrix //хранение информации о ребрах между вершинами
     {
         private int[,] matrix;
 
