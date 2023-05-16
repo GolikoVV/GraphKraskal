@@ -18,7 +18,7 @@ namespace GraphKraskal
             edges = new List<Edge>();
         }
 
-        public void AddEdge(int source, int destination, int weight)
+        public void AddEdge(int source, int destination, int weight) //метод для добавления ребра в граф, принимает исходную вершину, целевую и вес ребра
         {
             edges.Add(new Edge(source, destination, weight));
         }
@@ -38,7 +38,7 @@ namespace GraphKraskal
             parent[xRoot] = yRoot;
         }
 
-        public void KruskalMST()
+        public void KruskalMST() //метод для добавления ребра в граф
         {
             List<Edge> result = new List<Edge>(); // Результат минимального остовного дерева
 
