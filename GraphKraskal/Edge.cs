@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace GraphKraskal
 {
     
-    internal class Edge
+    internal class Edge //представляет ребро графа
     {
         public int Source { get; }
-        public int Destination { get; }
-        public int Weight { get; }
+        public int Destination { get; } //целевая вершина
+        public int Weight { get; } //вес ребра
 
-        public Edge(int source, int destination, int weight)
+        public Edge(int source, int destination, int weight) 
         {
             Source = source;
             Destination = destination;
